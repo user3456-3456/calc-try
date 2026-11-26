@@ -7,6 +7,10 @@
     --robotic: #94a3b8;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Work Sans", Arial, sans-serif;
@@ -35,14 +39,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: calc(100dvh - 110px); /* Fits inside the screen with room for the title & margins */
   border: 1px solid var(--robotic);
-  border-radius: 10px;
-  margin: 0 auto;
-  padding: 2px;
-  background-color: var(--pi); 
-  max-width: 1200px; 
-  
+  border-radius: 16px; /* Slightly more noticeable curve; adjust to taste */
+  margin: 16px auto 24px;
+  padding: 20px;
+  background-color: var(--pi);
+  max-width: 1200px;
+  width: calc(100% - 32px); /* Keeps side spacing & curved edges visible on smaller screens */
 }
 
 .button {
