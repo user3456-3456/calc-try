@@ -7,3 +7,11 @@
     --robotic: #94a3b8;
 }
 
+body {
+  margin: 0;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--inkjet);
+  background-color: var(--midnight);
+}
