@@ -12,7 +12,7 @@ body {
   font-family: "Work Sans", Arial, sans-serif;
   font-size: 1.05rem;
   line-height: 1.7;
-  color: var(--inkjet);
+  color: var(--robotic);
   background-color: var(--midnight);
 }
 
@@ -20,7 +20,7 @@ body {
   text-align: center;
   color: var(--robotic);
 }
-
+/* input styles */
 .input {
   display: flex;
   flex-direction: column;
@@ -39,8 +39,10 @@ body {
   border: 1px solid var(--robotic);
   border-radius: 10px;
   margin: 0 auto;
-  padding: 20px;
-  background-color: var(--pi);  
+  padding: 2px;
+  background-color: var(--pi); 
+  max-width: 1200px; 
+  
 }
 
 .button {
